@@ -1,0 +1,29 @@
+{
+  "name": "magika-openclaw",
+  "version": "1.0.0",
+  "description": "AI-powered pre-execution security scanner using Google Magika + Brave + Felo for OpenClaw",
+  "main": "magika_brave_exec.cjs",
+  "scripts": {
+    "scan": "node magika_brave_exec.cjs",
+    "scan:auto": "node magika_brave_exec.cjs --auto"
+  },
+  "keywords": [
+    "security",
+    "magika",
+    "openclaw",
+    "ai",
+    "file-type-detection",
+    "pre-execution-scan"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "magika": "*"
+  },
+  "devDependencies": {
+    "magika": "^1.0.0"
+  }
+}
